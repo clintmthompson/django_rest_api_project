@@ -110,6 +110,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 try:
-    from music_project.music_project.local_settings import *
+    from music_project.local_settings import *
 except ImportError:
     pass
